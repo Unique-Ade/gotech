@@ -1,0 +1,34 @@
+{
+  "words": [
+    {
+      "name": "JavaScript",
+      "details": "An object Oriented Programming Language",
+      "id": 1
+    },
+    {
+        "name": "Programming",
+        "details": "A set of computer rules used to give commands to a computer",
+        "id": 2
+      },
+      {
+        "name": "Django",
+        "details": "Python backend framework",
+        "id": 3
+      },
+      {
+        "name": "C#",
+        "details": "An object Oriented Programming Language",
+        "id": 4
+      },
+      {
+        "name": "Git",
+        "details": "Global information tracker",
+        "id": 5
+      },
+      {
+        "name": "PHP",
+        "details": "A server side scripting Language",
+        "id": 6
+      }
+  ]
+}
