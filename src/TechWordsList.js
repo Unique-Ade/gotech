@@ -4,6 +4,9 @@ const TechWordsList = () => {
             
         </div>
      );
-}
+
+<div className="tech_words_list">
+    
+</div>}
  
 export default TechWordsList;
