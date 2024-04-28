@@ -51,12 +51,28 @@
   margin-top: 100px;
   border: 3px solid black;
   border-radius: 20px;
- padding:0px 50px ;
- justify-content: space-between;
+  padding: 0px 50px;
+  justify-content: space-between;
 }
 
-.search_bar>img{
-  width:20px;
+.search_bar > img {
+  width: 20px;
 }
 
+.words {
+  display: block;
+  margin: auto;
+  width: 815px;
+  /* margin-top: 10px;*/
+} 
 
+td {
+  width: 815px;
+  font-size: 24px;
+  color: rgb(94, 91, 91);
+  border-bottom: 1px solid rgb(247, 239, 239);
+}
+
+td:hover{
+  background-color: aliceblue;
+}
