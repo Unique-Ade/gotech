@@ -2,17 +2,20 @@
   "words": [
     {
       "name": "JavaScript",
-      "details": "An object Oriented Programming Language",
+      "shortDefinition": "A multipurpose Programming Language",
+      "details": "This is amultipurpose programming language. It can be implemented for various purposes ",
       "id": 1
     },
     {
         "name": "Programming",
+        "shortDefinition": "Computer Instructions",
         "details": "A set of computer rules used to give commands to a computer",
         "id": 2
       },
       {
         "name": "Django",
-        "details": "Python backend framework",
+        "shortDefinition": "Python backend framework",
+        "details": "It is server side framework for designing dynamic web pages",
         "id": 3
       },
       {

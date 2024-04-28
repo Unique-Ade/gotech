@@ -2,6 +2,7 @@ import TechWordsList from './TechWordsList';
 import { useState } from 'react';
 import search_icon from './Assets/search.svg';
 import UseFetch from './useFetch';
+import WordDefinition from './WordDefinition';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 <img src={search_icon} alt="" onClick={searchFilter} />
             </div>
             <TechWordsList wordList={wordList} />
+           
         </div>
 
 
