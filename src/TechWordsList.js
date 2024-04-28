@@ -1,3 +1,5 @@
+import WordDefinition from "./WordDefinition";
+
 const TechWordsList = ({wordList}) => {
     return (
         <div className="tech_words_list">
@@ -5,11 +7,12 @@ const TechWordsList = ({wordList}) => {
                 <div className="words" key={word.id}>
                     <table>
                         <tr>
-                            <td>{word.name}</td>
+                          <a href="" target="#searched_word"> <td>{word.name}</td></a> 
                         </tr>
                     </table>
                 </div>
             ))}
+            <WordDefinition/>
         </div>
     );
 }
