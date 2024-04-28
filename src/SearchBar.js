@@ -9,7 +9,7 @@ const SearchBar = () => {
     const { data: words, error } = UseFetch('http://localhost:5000/words');
     const [wordList, setWordList] = useState([]);
     const searchFilter = (e) => {
-        setWordList(words.filter((word) => word.name.toLowerCase().includes(e.target.value)));
+        setWordList(words.filter((word) => word.name.toLowerCase().toUpperCase().includes(e.target.value)));
     }
     return (
         <div className="search_bar_main">
