@@ -4,7 +4,7 @@ import search_icon from './Assets/search.svg';
 import UseFetch from './useFetch';
 
 
-const SearchBar = () => {
+const Home = () => {
     const [input, setInput] = useState("");
     const { data: words, error } = UseFetch('http://localhost:5000/words');
     const [wordList, setWordList] = useState([]);
@@ -26,4 +26,4 @@ const SearchBar = () => {
     );
 }
 
-export default SearchBar;
+export default Home;
