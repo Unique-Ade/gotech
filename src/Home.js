@@ -11,18 +11,23 @@ const Home = () => {
     const [wordList, setWordList] = useState([]);
     const searchFilter = (e) => {
         setWordList(words.filter((word) =>
-             word.name.toLowerCase().includes(e.target.value)
-            || word.name.toUpperCase().includes(e.target.value)));
+
+            word.name.toLowerCase().includes(e.target.value)  || word.name.toUpperCase().includes(e.target.value)));
     }
+
     return (
         <div className="search_bar_main">
+
             <div className="search_bar">
                 <input type="search" name="search-box" id="search" placeholder="Search e.g C#, Js, PHP, JavaScript..."
                     onChange={searchFilter} />
                 <img src={search_icon} alt="" onClick={searchFilter} />
             </div>
-            <TechWordsList wordList={wordList} />
-           
+            {error && <p>{error}</p>}
+
+            {} <TechWordsList wordList={wordList} />
+
+
         </div>
 
 

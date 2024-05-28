@@ -1,4 +1,4 @@
-const WordDefinition = ({ wordList }) => {
+const WordDefinition = ({ wordList, handleSelect }) => {
   return (
     <div className="word_definition" id="searched_word">
       {wordList.map((selected) => (
