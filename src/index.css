@@ -119,13 +119,13 @@ tr:hover{
   margin: auto;
   display: block;
   max-width: 400px;
-  height:400px;
+  height:fit-content;
   border-radius: 8px;
   background-color: rgb(176, 191, 204);
   font-family: aladin;
   font-size: 18px;
   /* font-family: "Aladin", system-ui; */
-  /* font-weight: 400; */
+  font-weight: 200;
   font-style: normal;
   padding: 10px;
   margin-top: 60px;

@@ -1,0 +1,50 @@
+{
+  "words": [
+    {
+      "name": "JavaScript",
+      "shortDefinition": "A multipurpose Programming Language",
+      "details": "This is a multipurpose programming language. It can be implemented for various purposes ",
+      "id": "1"
+    },
+    {
+      "name": "Programming",
+      "shortDefinition": "Computer Instructions",
+      "details": "A set of computer rules used to give commands to a computer",
+      "id": "2"
+    },
+    {
+      "name": "Django",
+      "shortDefinition": "Python backend framework",
+      "details": "It is server side framework for designing dynamic web pages",
+      "id": "3"
+    },
+    {
+      "name": "C#",
+      "shortDefinition": "C sharp (C#) is a Low level Programming Language. C# belongs to the C family(C, C++ and Java)",
+      "details": "An object Oriented Programming Language",
+      "id": "4"
+    },
+    {
+      "name": "Git",
+      "shortDefinition": "Global Information Tracker",
+      "details": "Git is a distributed version control system that helps to track changes in any set of computer files. It is used alongside a remote version control system -  Github",
+      "id": "5"
+    },
+    {
+      "name": "PHP",
+      "shortDefinition": "A server side scripting Language",
+      "details": "PHP is a server side scripting language used for creating backend applications e.g ecommerce websites.",
+      "id": "6"
+    }
+  ],
+  "Users": [
+    {
+      "id": "342f",
+      "fname": "Adeola",
+      "lname": "Milli",
+      "email": "SungMilli@gmail.com",
+      "password": "2345",
+      "cpassword": "2345"
+    }
+  ]
+}
