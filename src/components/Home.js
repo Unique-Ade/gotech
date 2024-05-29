@@ -1,6 +1,6 @@
 import TechWordsList from './TechWordsList';
 import { useState } from 'react';
-import search_icon from './Assets/search.svg';
+import search_icon from '../Assets/search.svg';
 import UseFetch from './useFetch';
 import WordDefinition from './WordDefinition';
 

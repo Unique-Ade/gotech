@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
-import Home from "./Home";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
-import Registration from "./Authentication/Registration";
+import Registration from "./components/Authentication/Registration";
 
 
 function App() {

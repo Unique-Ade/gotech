@@ -5,7 +5,7 @@ const TechWordsList = ({ wordList }) => {
     const [words, setWords] = useState(wordList)
     const handleSelect = (id) => {
 
-        const newWord = wordList.filter((word) => (word.id == id));
+        const newWord = wordList.filter((word) => (word.id === id));
         setWords(newWord);
     }
 
