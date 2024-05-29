@@ -9,7 +9,6 @@ Creating a React.js dictionary web application focused on tech words sounds like
    ```
 
 2. **Define Your Components:**
-   Think about the structure of your application. You might have components like:
    - `App`: The main component that holds everything together.
    - `SearchBar`: Component for users to input their search queries.
    - `WordDefinition`: Component to display the definition of a word.
