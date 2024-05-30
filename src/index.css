@@ -164,3 +164,8 @@ tr:hover{
   background-color: blue;
   margin-left: 293px;
 }
+
+.error_text{
+  color: red;
+  font-size: small;
+}
